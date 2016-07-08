@@ -1,0 +1,4 @@
+platform:ios,'8.0'
+target '启动页面加载广告' do
+pod 'SDWebImage'
+end

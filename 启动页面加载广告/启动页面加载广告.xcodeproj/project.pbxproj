@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EE3D851D2F86D300B6A651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE3D841D2F86D300B6A651 /* main.m */; };
+		38EE3D881D2F86D300B6A651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE3D871D2F86D300B6A651 /* AppDelegate.m */; };
+		38EE3D8B1D2F86D300B6A651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE3D8A1D2F86D300B6A651 /* ViewController.m */; };
+		38EE3D8E1D2F86D300B6A651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE3D8C1D2F86D300B6A651 /* Main.storyboard */; };
+		38EE3D901D2F86D300B6A651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EE3D8F1D2F86D300B6A651 /* Assets.xcassets */; };
+		38EE3D931D2F86D300B6A651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE3D911D2F86D300B6A651 /* LaunchScreen.storyboard */; };
+		38EE3D9C1D2F870000B6A651 /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE3D9B1D2F870000B6A651 /* LBLaunchImageAdView.m */; };
+		38EE3D9E1D2F872900B6A651 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 38EE3D9D1D2F872900B6A651 /* Podfile */; };
+		DE1B53279AE3B5F20D36EAEB /* libPods-启动页面加载广告.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9EB252228911C134F527A8 /* libPods-启动页面加载广告.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EE3D801D2F86D300B6A651 /* 启动页面加载广告.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "启动页面加载广告.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE3D841D2F86D300B6A651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EE3D861D2F86D300B6A651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38EE3D871D2F86D300B6A651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38EE3D891D2F86D300B6A651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38EE3D8A1D2F86D300B6A651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38EE3D8D1D2F86D300B6A651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EE3D8F1D2F86D300B6A651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EE3D921D2F86D300B6A651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EE3D941D2F86D300B6A651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EE3D9A1D2F870000B6A651 /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBLaunchImageAdView.h; path = ../LBLaunchImageAdView.h; sourceTree = "<group>"; };
+		38EE3D9B1D2F870000B6A651 /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBLaunchImageAdView.m; path = ../LBLaunchImageAdView.m; sourceTree = "<group>"; };
+		38EE3D9D1D2F872900B6A651 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F6ECA916A8AC901C56B47FE /* Pods-启动页面加载广告.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启动页面加载广告.debug.xcconfig"; path = "Pods/Target Support Files/Pods-启动页面加载广告/Pods-启动页面加载广告.debug.xcconfig"; sourceTree = "<group>"; };
+		F378701BC4902F899F5567BA /* Pods-启动页面加载广告.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启动页面加载广告.release.xcconfig"; path = "Pods/Target Support Files/Pods-启动页面加载广告/Pods-启动页面加载广告.release.xcconfig"; sourceTree = "<group>"; };
+		FB9EB252228911C134F527A8 /* libPods-启动页面加载广告.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-启动页面加载广告.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EE3D7D1D2F86D300B6A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B53279AE3B5F20D36EAEB /* libPods-启动页面加载广告.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EE3D771D2F86D300B6A651 = {
+			isa = PBXGroup;
+			children = (
+				38EE3D9D1D2F872900B6A651 /* Podfile */,
+				38EE3D821D2F86D300B6A651 /* 启动页面加载广告 */,
+				38EE3D811D2F86D300B6A651 /* Products */,
+				DCDC4168CEC3A68D6D5807C6 /* Pods */,
+				9785C29C288E5EF602A3B4AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38EE3D811D2F86D300B6A651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EE3D801D2F86D300B6A651 /* 启动页面加载广告.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EE3D821D2F86D300B6A651 /* 启动页面加载广告 */ = {
+			isa = PBXGroup;
+			children = (
+				38EE3D861D2F86D300B6A651 /* AppDelegate.h */,
+				38EE3D9A1D2F870000B6A651 /* LBLaunchImageAdView.h */,
+				38EE3D9B1D2F870000B6A651 /* LBLaunchImageAdView.m */,
+				38EE3D871D2F86D300B6A651 /* AppDelegate.m */,
+				38EE3D891D2F86D300B6A651 /* ViewController.h */,
+				38EE3D8A1D2F86D300B6A651 /* ViewController.m */,
+				38EE3D8C1D2F86D300B6A651 /* Main.storyboard */,
+				38EE3D8F1D2F86D300B6A651 /* Assets.xcassets */,
+				38EE3D911D2F86D300B6A651 /* LaunchScreen.storyboard */,
+				38EE3D941D2F86D300B6A651 /* Info.plist */,
+				38EE3D831D2F86D300B6A651 /* Supporting Files */,
+			);
+			path = "启动页面加载广告";
+			sourceTree = "<group>";
+		};
+		38EE3D831D2F86D300B6A651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EE3D841D2F86D300B6A651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9785C29C288E5EF602A3B4AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EB252228911C134F527A8 /* libPods-启动页面加载广告.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDC4168CEC3A68D6D5807C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F6ECA916A8AC901C56B47FE /* Pods-启动页面加载广告.debug.xcconfig */,
+				F378701BC4902F899F5567BA /* Pods-启动页面加载广告.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EE3D7F1D2F86D300B6A651 /* 启动页面加载广告 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE3D971D2F86D300B6A651 /* Build configuration list for PBXNativeTarget "启动页面加载广告" */;
+			buildPhases = (
+				277D7C92B639E07B0B3130BD /* 📦 Check Pods Manifest.lock */,
+				38EE3D7C1D2F86D300B6A651 /* Sources */,
+				38EE3D7D1D2F86D300B6A651 /* Frameworks */,
+				38EE3D7E1D2F86D300B6A651 /* Resources */,
+				72C38495EF0923BBA3A936FD /* 📦 Embed Pods Frameworks */,
+				23A3A533784AD056BB5EF076 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "启动页面加载广告";
+			productName = "启动页面加载广告";
+			productReference = 38EE3D801D2F86D300B6A651 /* 启动页面加载广告.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EE3D781D2F86D300B6A651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hznucai;
+				TargetAttributes = {
+					38EE3D7F1D2F86D300B6A651 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 38EE3D7B1D2F86D300B6A651 /* Build configuration list for PBXProject "启动页面加载广告" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EE3D771D2F86D300B6A651;
+			productRefGroup = 38EE3D811D2F86D300B6A651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EE3D7F1D2F86D300B6A651 /* 启动页面加载广告 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EE3D7E1D2F86D300B6A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE3D931D2F86D300B6A651 /* LaunchScreen.storyboard in Resources */,
+				38EE3D901D2F86D300B6A651 /* Assets.xcassets in Resources */,
+				38EE3D9E1D2F872900B6A651 /* Podfile in Resources */,
+				38EE3D8E1D2F86D300B6A651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A3A533784AD056BB5EF076 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-启动页面加载广告/Pods-启动页面加载广告-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		277D7C92B639E07B0B3130BD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72C38495EF0923BBA3A936FD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-启动页面加载广告/Pods-启动页面加载广告-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EE3D7C1D2F86D300B6A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE3D9C1D2F870000B6A651 /* LBLaunchImageAdView.m in Sources */,
+				38EE3D8B1D2F86D300B6A651 /* ViewController.m in Sources */,
+				38EE3D881D2F86D300B6A651 /* AppDelegate.m in Sources */,
+				38EE3D851D2F86D300B6A651 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38EE3D8C1D2F86D300B6A651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE3D8D1D2F86D300B6A651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EE3D911D2F86D300B6A651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE3D921D2F86D300B6A651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EE3D951D2F86D300B6A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EE3D961D2F86D300B6A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EE3D981D2F86D300B6A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6ECA916A8AC901C56B47FE /* Pods-启动页面加载广告.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "启动页面加载广告/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hznucai.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38EE3D991D2F86D300B6A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F378701BC4902F899F5567BA /* Pods-启动页面加载广告.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "启动页面加载广告/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hznucai.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EE3D7B1D2F86D300B6A651 /* Build configuration list for PBXProject "启动页面加载广告" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE3D951D2F86D300B6A651 /* Debug */,
+				38EE3D961D2F86D300B6A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE3D971D2F86D300B6A651 /* Build configuration list for PBXNativeTarget "启动页面加载广告" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE3D981D2F86D300B6A651 /* Debug */,
+				38EE3D991D2F86D300B6A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EE3D781D2F86D300B6A651 /* Project object */;
+}
